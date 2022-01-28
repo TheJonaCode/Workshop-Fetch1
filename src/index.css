@@ -1,3 +1,35 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+.card {
+    width: 18rem;
+    margin: 3rem;
+    display: inline-block;
+}
+
+.card:hover {
+    background-color: #d8f3dc;
+}
+
+.cartaImg {
+    margin: auto;
+    display: block;
+    width: 12rem;
+}
+
+.card-title {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn {
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
