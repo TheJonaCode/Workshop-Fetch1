@@ -9,7 +9,7 @@ const baseUrl = "https://platzi-avo.vercel.app";
 const appNode = document.querySelector('#app');
 
 appNode.addEventListener("click", (event) => {
-    if (event.target.nodeName === BUTTON) {
+    if (event.target.nodeName === "BUTTON") {
         window.alert("Compra no disponible! :(");
     }
 });
